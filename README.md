@@ -12,7 +12,7 @@ Jotted is a learning assistant that utilizes Large Language Models (LLMs), sever
 
 For our User Interface, we use React Native and Expo to build native-like applications for iOS, Android and the web to simplify development and reduce time and cost to build it.
 
-The backend is developed on TypeScript, and for optimal performance, we opt for Bun as the JavaScript runtime. The libraries we use for framework, database, authentication, and validation extend from ElysiaJS, Prisma, Lucia Auth and Zod, respectively. This is to ensure that we have a type-safe framework, easy database access, user authentication without being tied to a specific web framework and to define data schemas and validate data against these schemas at both compile-time and runtime.
+The backend is developed on Java and Micronaut.
 
 Diagram for LLM UI interface (idea)
 
