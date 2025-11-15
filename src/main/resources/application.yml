@@ -1,0 +1,6 @@
+ollama:
+  host: http://localhost:11434
+
+micronaut:
+  server:
+    port: 8080

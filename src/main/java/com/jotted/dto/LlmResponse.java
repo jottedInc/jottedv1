@@ -1,14 +1,14 @@
 package com.jotted.dto;
 
-import com.jotted.model.Message;
 import io.micronaut.serde.annotation.Serdeable;
+import lombok.Builder;
 import lombok.Data;
 
-import java.util.List;
-
 @Data
+@Builder
 @Serdeable
-public class LlmRequest {
+public class LlmResponse {
     String model;
-    List<Message> message;
+    String response;
+    boolean done;
 }

@@ -1,4 +1,4 @@
-package com.jotted.app;
+package com.jotted;
 
 import io.micronaut.runtime.Micronaut;
 
